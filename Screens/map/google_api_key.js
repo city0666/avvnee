@@ -1,4 +1,4 @@
   
-const apiKey = "AIzaSyCudc5akB8KhWTntNWFff4d4D47pX9dfVM";
+const apiKey = "sreeraj";
 
 module.exports = apiKey;
