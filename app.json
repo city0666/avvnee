@@ -13,7 +13,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor":"#7c2b83"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hovono.avvnee",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCudc5akB8KhWTntNWFff4d4D47pX9dfVM"
+      }
+
+    },
+    "android": {
+      "package": "com.hovono.avvnee",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCudc5akB8KhWTntNWFff4d4D47pX9dfVM"
+        }
+      }
+      
     }
   }
 }
